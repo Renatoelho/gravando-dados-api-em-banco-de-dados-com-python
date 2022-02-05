@@ -1,8 +1,8 @@
-# Gravar os dados de uma API em um banco de dados com Python
+# Gravando os dados de uma API em um banco de dados com Python
 
 Em outro repositório meu aqui no *GitHub* eu ensinei como acessar uma API de endereços com o *Python*, agora vou ensinar como gravar esses dados obtidos via API em um banco de dados utilizando o *Python*. Para entender melhor o contexto desta aplicação proposta aqui, sugiro acessar o repositório onde ensino como acessar uma API com auxílio do *Python*: [Consumindo uma API de endereços com Python](https://github.com/Renatoelho/consumindo-api-enderecos-python).
 
-Com o código que utilizamos para acessar a API e pegar todas as informações de endereço, obtivemos uma lista com informações que vamos carregar em uma tabela no banco de dados *MySQL*. As bibliotecas que utilizaremos para essa atividade vão ser o *pandas* com objetivo de fazer uma pequena organização da lista, e com *sqlalchemy* que é uma biblioteca de [*ORM*](https://pt.wikipedia.org/wiki/Mapeamento_objeto-relacional) que facilita a integração do Python com os mais variados bancos de dados existentes.
+Com o código que utilizamos para acessar a API e pegar todas as informações de endereço, obtivemos uma lista com informações que vamos carregar em uma tabela no banco de dados *MySQL*. As bibliotecas que utilizaremos para essa atividade vão ser o **pandas** com objetivo de fazer uma pequena organização da lista, e com **sqlalchemy** que é uma biblioteca de [*ORM*](https://pt.wikipedia.org/wiki/Mapeamento_objeto-relacional) que facilita a integração do Python com os mais variados bancos de dados existentes.
 
 Como parte do código já está pronto, vamos focar em dois passos que são fundamentais que são: utilizar o *pandas* para transformar a lista em um *DataFrame* e como  carregar esse *DataFrame* no banco de dados.
 
